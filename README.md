@@ -97,6 +97,15 @@ To modify or extend the script:
 2.  **Debug:** Use the Chrome DevTools to debug the extension.  In Premiere Pro, go to `Window > Extensions > [Your Extension Name] > Debug`.
 3.  **Reload:**  After making changes, reload the extension in Premiere Pro.  You can usually do this by right-clicking on the extension panel and choosing "Reload" or "Debug".
 
+## Hire Me
+
+Need help with Adobe Premiere Pro extensions, automation, or video editing workflows?  I'm available for freelance work!
+
+*   **Upwork:**  [https://www.upwork.com/freelancers/~01efdc14edfa7aaecc]  *(Replace with your actual Upwork profile link)*
+*   **Fiverr:** [https://www.fiverr.com/sellers/huphuoc] *(Replace with your actual Fiverr profile link)*
+
+Feel free to reach out to discuss your project requirements.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details. (You'll need to create a LICENSE file and put the MIT license text in it).
@@ -106,5 +115,3 @@ This project is licensed under the [MIT License](LICENSE) - see the LICENSE file
 *   [wav-decoder](https://www.npmjs.com/package/wav-decoder) - Used for decoding WAV audio files.
 *   [SweetAlert2](https://sweetalert2.github.io/) - Used for displaying user-friendly alerts and messages.
 *   Adobe CEP Documentation - Essential for understanding how to build Premiere Pro extensions.
-
-This improved README provides a comprehensive guide for users and developers, covering installation, usage, troubleshooting, and development. It also includes important considerations and best practices for using the MuteCutter extension. Remember to create a `LICENSE` file.
