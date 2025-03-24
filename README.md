@@ -101,8 +101,8 @@ To modify or extend the script:
 
 Need help with Adobe Premiere Pro extensions, automation, or video editing workflows?  I'm available for freelance work!
 
-*   **Upwork:**  [https://www.upwork.com/freelancers/~01efdc14edfa7aaecc]  *(Replace with your actual Upwork profile link)*
-*   **Fiverr:** [https://www.fiverr.com/sellers/huphuoc] *(Replace with your actual Fiverr profile link)*
+*   **Upwork:**  [www.upwork.com/phuocnh](https://www.upwork.com/freelancers/~01efdc14edfa7aaecc?mp_source=share) 
+*   **Fiverr:** [www.fiverr.com/huphuoc](www.fiverr.com/huphuoc) 
 
 Feel free to reach out to discuss your project requirements.
 
