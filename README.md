@@ -23,6 +23,7 @@ MuteCutter is an Adobe Premiere Pro extension designed to automatically detect a
 ## Installation
 
 1.  **CEP Extension Installation:**  MuteCutter is a CEP (Common Extensibility Platform) extension.  You'll need to install it using a tool like:
+    *   **Download**[MuteCutter-v1.1.2.zxp](https://drive.google.com/file/d/1MPAJGgkjv7tTvwFN6xg72K4s3V3f5NUX/view?usp=drive_link).
     *   **ZXP Installer:**  A popular and easy-to-use tool for installing ZXP extensions. Download it from [zxpinstaller.com](https://zxpinstaller.com/).
     *   **Anastasiy's Extension Manager:**  Another option for managing CEP extensions.
     *   **Manual Installation:**  If you're comfortable with manual installation, you can copy the extension folder to the appropriate CEP extensions directory:
@@ -102,7 +103,7 @@ To modify or extend the script:
 Need help with Adobe Premiere Pro extensions, automation, or video editing workflows?  I'm available for freelance work!
 
 *   **Upwork:**  [www.upwork.com/phuocnh](https://www.upwork.com/freelancers/~01efdc14edfa7aaecc?mp_source=share) 
-*   **Fiverr:** [www.fiverr.com/huphuoc](www.fiverr.com/huphuoc) 
+*   **Fiverr:** [www.fiverr.com/huphuoc](https://www.fiverr.com/huphuoc) 
 
 Feel free to reach out to discuss your project requirements.
 

@@ -80,10 +80,26 @@
 	</div>
 
 	<div id="footer">
-		<p>© <span id="current-year"></span> Phuoc Nguyen. All rights reserved.</p>
+		<p>© <span id="current-year"></span> Phuoc Nguyen. Contact:
+			<a id="upwork" href="https://www.upwork.com/freelancers/~your-profile" target="_blank">Upwork</a> |
+			<a id="fiverr" href="https://www.fiverr.com/your-profile" target="_blank">Fiverr</a>.
+		</p>
 	</div>
 
 
+	<script>
+		document.getElementById("upwork").addEventListener("click", function () {
+			if (typeof cep !== "undefined") {
+				cep.util.openURLInDefaultBrowser("https://www.upwork.com/freelancers/~01efdc14edfa7aaecc?mp_source=share");
+			}
+		});
+		document.getElementById("fiverr").addEventListener("click", function () {
+			if (typeof cep !== "undefined") {
+				cep.util.openURLInDefaultBrowser("https://www.fiverr.com/huphuoc");
+			}
+		});
+
+	</script>
 	<script>
 		function getOS() {
 			var userAgent = window.navigator.userAgent,
