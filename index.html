@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="./font/SofiaProRegular.ttf">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.7/dist/sweetalert2.all.min.js"></script>
+	<title>Template 1a</title>
+	<script>
+		var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+		if (navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+
+		function mischandler() {
+			return false;
+		}
+
+		function mousehandler(e) {
+			var myevent = (isNS) ? e : event;
+			var eventbutton = (isNS) ? myevent.which : myevent.button;
+			if ((eventbutton == 2) || (eventbutton == 3)) return false;
+		}
+		document.oncontextmenu = mischandler;
+		document.onmousedown = mousehandler;
+		document.onmouseup = mousehandler;
+	</script>
+	<!-- Select2 CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+
+	<!-- Select2 JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+
+
+</head>
+
+<body scroll="no">
+
+	<div class="container">
+		<div class="title1 compact-title">
+			<h2>MuteCutter</h2>
+
+			<div class="version-container">V1.1.2</div>
+		</div>
+		<div class="run-button-container">
+			<div class="video-container">
+				<div class="input-container">
+					<label for="dbInput" id="dbLabel">Decibel (dB): </label>
+					<input type="number" id="dbInput" min="-40" max="0" step="0.1" value="-40">
+				</div>
+				<div class="input-container">
+					<label for="secondInput" id="durationLabel">Duration (seconds): </label>
+					<input type="number" id="secondInput" min="0" step="0.1" value="0.5">
+				</div>
+				<div class="input-container">
+					<label for="videoTrackInput">Video Track: </label>
+					<input type="number" id="videoTrackInput" min="1" value="1">
+				</div>
+				<div id="audioTrackContainer" class="input-container">
+					<label for="audioTrackInput">Audio Track: </label>
+					<input type="number" id="audioTrackInput" min="1" value="1">
+				</div>
+
+				<div class="toggle-container">
+					<label class="toggle-label" for="cb-cut-audio">Cut audio and delete</label>
+					<input id="cb-toggle3" type="checkbox" class="checkbox">
+				</div>
+
+				<button id="btnCut" class="button-effects">Cut</button>
+				<div id="processing-info">
+					<div class="progress-bar">
+						<div class="progress"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>© <span id="current-year"></span> Phuoc Nguyen. All rights reserved.</p>
+	</div>
+
+
+	<script>
+		function getOS() {
+			var userAgent = window.navigator.userAgent,
+				platform = window.navigator.platform,
+				macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+				windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+				os = null;
+
+			if (macosPlatforms.indexOf(platform) != -1) {
+				os = "MAC";
+			} else if (windowsPlatforms.indexOf(platform) != -1) {
+				os = "WIN";
+			}
+			return os;
+		}
+	</script>
+	<!-- //time-->
+	<script src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/momentjs/latest/moment-timezone.min.js"></script>
+
+	<script src="js/libs/CSInterface.js"></script>
+	<script src="js/main.js"></script>
+	<script src="./ext.js"></script>
+</body>
+
+</html>

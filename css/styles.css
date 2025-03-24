@@ -1,0 +1,223 @@
+/* Reset mặc định */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
+}
+
+/* Căn giữa nội dung */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #1a1a1a;
+	color: #eee;
+}
+
+/* Khung chứa giao diện */
+.container {
+	background: #1d1d1d;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+	width: 380px;
+	text-align: center;
+}
+
+/* Tiêu đề */
+.title1 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.version-container {
+	font-size: 0.8em;
+	color: #999;
+}
+
+/* Ô input */
+.input-container {
+	margin: 10px 0;
+	text-align: left;
+}
+
+.input-container label {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+}
+
+.input-container input {
+	width: 100%;
+	padding: 8px;
+	border-radius: 6px;
+	border: 1px solid #444;
+	background: #222;
+	color: #fff;
+	outline: none;
+	font-size: 14px;
+	transition: 0.3s;
+}
+
+.input-container input:focus {
+	border-color: #ff4757;
+	box-shadow: 0px 0px 5px rgba(255, 71, 87, 0.5);
+}
+
+/* Toggle switch */
+.toggle-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+/* Nút Cut */
+.button-effects {
+	background: linear-gradient(to right, #ff4757, #e84118);
+	color: white;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: 0.3s;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.button-effects:hover {
+	background: linear-gradient(to right, #e84118, #c23616);
+}
+
+/* Thanh tiến trình */
+.progress-bar {
+	width: 100%;
+	height: 10px;
+	background-color: #444;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 15px;
+	position: relative;
+}
+
+.progress {
+	width: 0%;
+	height: 100%;
+	background: linear-gradient(to right, #ff4757, #ff6b81);
+	position: absolute;
+	transition: width 0.5s ease-in-out;
+}
+
+/* Toggle switch */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 50px;
+	height: 26px;
+	border-radius: 25px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.switch .slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #444;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+.switch input:checked+.slider {
+	background-color: #ff4757;
+}
+
+.switch .slider::before {
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 22px;
+	height: 22px;
+	background-color: white;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.switch input:checked+.slider::before {
+	transform: translateX(24px);
+}
+
+
+/* Progress bar container */
+#processing-info {
+	display: none;
+	/* Ẩn phần tử khi trang tải */
+}
+
+.progress-bar {
+	width: 100%;
+	height: 10px;
+	background-color: #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative;
+}
+
+/* Animated moving progress */
+.progress {
+	width: 30%;
+	/* Width of the moving part */
+	height: 100%;
+	background-color: #ff0015;
+	/* Main red color */
+	position: absolute;
+	left: 0;
+	border-radius: 10px;
+	animation: moveBackAndForth 2s linear infinite;
+}
+
+/* Animation keyframes */
+@keyframes moveBackAndForth {
+	0% {
+		left: 0;
+	}
+
+	50% {
+		left: 70%;
+		/* Move to the end */
+	}
+
+	100% {
+		left: 0;
+		/* Return to the start */
+	}
+}
+
+/* styles.css */
+
+#footer {
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	color: #555;
+	/* Màu chữ */
+	font-family: Arial, sans-serif;
+	/* Font chữ */
+}
