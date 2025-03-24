@@ -1,5 +1,16 @@
 # MuteCutter - Adobe Premiere Pro Extension
 
+## Support MuteCutter's Development! (Donations)
+
+If you find MuteCutter useful and want to support its continued development, please consider making a donation.  Your support helps me dedicate time to improving the extension, adding new features, and providing support.  Any amount is greatly appreciated!
+
+*   **PayPal:** [PayPal.me](https://paypal.me/huuphuoc12c7?country.x=VN&locale.x=vi_VN)
+*   **Buy Me a Coffee:** 
+*   **BTC:** [bc1qmfvwpygfjz4ldzlfk6n7z0wd5rf5nmflx2hvmp]
+*   **ETH:** [0x10c7b810E0F90b25D559e8383872e86c3811E8F2]
+
+---
+
 ## Overview
 
 MuteCutter is an Adobe Premiere Pro extension designed to automatically detect and cut out silent or low-volume segments from your video and audio tracks.  It analyzes an audio track, identifies periods of low audio levels (below a user-defined threshold), and then performs cuts on the corresponding video and audio tracks in your Premiere Pro sequence.  This greatly speeds up the process of removing silences, breaths, or unwanted pauses, especially in long-form content like interviews, podcasts, or vlogs.
