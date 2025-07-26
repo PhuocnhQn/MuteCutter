@@ -3,7 +3,7 @@
 	Version="5.0"
 	ExtensionBundleId="com.phuocnh.MuteCutter"
 	ExtensionBundleVersion="1.1.2"
-	ExtensionBundleName="BLV"
+	ExtensionBundleName="MuteCutter"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 	<ExtensionList>
